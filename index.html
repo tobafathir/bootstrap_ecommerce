@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="asset/css/all.css">
     <link rel="stylesheet" href="asset/css/bootstrap.min.css">
     <style>
+        @media(max-width:575.98px)
+        {
+            #search{
+                margin-right: 4px;
+            }
+            #search input{
+                width: 80%;
+            }
+        }
+    
+        @media (max-width: 991.98px){
+            #search input{
+                width: 90%;
+            }
+        }
         .rating ul li{
             color: orange;
         }
@@ -28,22 +43,22 @@
         <div class="container">
             <div class="row">
                 <!--logo-->
-                <div class="col-1">
+                <div class="col-2 col-sm-2 col-md-1  col-lg-1 ">
                     <img src="asset/gambar/walrus.png" alt="srigala" width="48" height="48">
                 </div>
                 <!--search bar-->
-                <div class="col-7">
+                <div id="search" class="col-10 col-sm-10 col-md-11   col-lg-7" widht="100">
                     <form class="form-inline my-2 my-lg-0 w-100">
-                        <input class="form-control mr-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
                 <!--account-->
-                <div class="col-4">
+                <div class="col-12 col-sm-12 col-lg-4">
                     <div class="container">
                         <div class="row">
                             <!--user icon-->
-                            <div class="col-6">
+                            <div class="col-9">
                                 <span class="float-left px-2">
                                     <i class="fas fa-shopping-cart " style="font-size: 2em; color: grey;"></i>
                                 </span>
@@ -53,7 +68,7 @@
                                 <div class="clearfix"></div>
                             </div>
                             <!--register-->
-                            <div class="col-6 p-0">
+                            <div class="col-3  p-0">
                                 <p class="text-muted m-0">Welcome!</p>
                                 <span>
                                     <a href="#" class="float-left">Sign in</a>
@@ -71,7 +86,7 @@
         
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                     
                     <!-- navigation bar -->
                     
@@ -88,25 +103,22 @@
                                         <i class="fas fa-bars"></i>Semua Kategori
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Redmi Note 9 Pro</a>
-                                        <a class="dropdown-item" href="#">Samsung Galaxy Fold</a>
-                                        <a class="dropdown-item" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#9pro">Redmi Note 9 Pro</a>
+                                        <a class="dropdown-item link-smooth" href="#galaxy">Samsung Galaxy Fold</a>
+                                        <a class="dropdown-item link-smooth" href="#a83">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#i8se">Xiaomi 8 SE</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
+                                        <a class="dropdown-item link-smooth" href="#">OPPO A 83</a>
                                     </div>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home </a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">REDMI NOTE 9 PRO</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">SAMSUNG GALAXY</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home </a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home </a>
+                                    <a class="nav-link" href="#">Home </a>  
                                 </li>
                                 
                             </ul>
@@ -133,17 +145,17 @@
         <div class="card">
             <div class="card-body">           
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <i class="fas fa-award fa-3x"></i>
                         <h3 class="h5 mt-4">Dijamin Keaslianya</h3>
                         <p>Ditempat Kami Barang Di Jamin Kualitas Sesuai ISO</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <i class="fas fa-landmark fa-3x"></i>
                         <h3 class="h5 mt-4">Servis</h3>
                         <p>Kami Juga Menyediakan Layanan Service dan bergaransi</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <i class="fas fa-lock fa-3x"></i>
                         <h3 class="h5 mt-4">Cicilan Atau Kredit</h3>
                         <p>Ditempat Kami Juga Menyediakan  Berbagai Macam kredit</p>
@@ -154,15 +166,15 @@
     </section>
     <br>
     <br>
-    <br>
+   
     
     <!-- popular section -->
     <section class="container mt-3">
         <h3>Produk Terpopuler</h3>
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
-                    <a href="#"><img src="asset/gambar/9pro.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <a id="9pro"><img src="asset/gambar/9pro.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
                         <a href="#">Redmi Note 9 pro</a>
                         <div class="rating mt-3">
@@ -173,20 +185,21 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">10 Terjual</span>
+                            <span class="pl-3 text-muted">6 Terjual</span>
+                            <i class="fas fa-map-marker-alt" style="color: gray;">Kota Tangerang</i>
                             <div class="clearfix"></div>
                         </div>
                         
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 4.690.310</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 4.690.310,-</button>
                             <button class="btn btn-secondary btn-block" type="button">Beli</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
-                    <a href="#"><img src="asset/gambar/galaxy_Fold_depan_White.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <a id="galaxy"><img src="asset/gambar/galaxy_Fold_depan_White.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
                         <a href="#">Samsung Galaxy fold</a>
                         <div class="rating mt-3">
@@ -198,18 +211,19 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
                             <span class="pl-3 text-muted">5 Terjual</span>
+                            <i class="fas fa-map-marker-alt" style="color: gray;">Kota Tangerang</i>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 29.300.000.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 29.300.000,-</button>
                             <button class="btn btn-secondary btn-block" type="button">Beli</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
-                    <a href="#"><img src="asset/gambar/Oppo-A83.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <a id="a83"><img src="asset/gambar/Oppo-A83.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
                         <a href="#">OPPO A83</a>
                         <div class="rating mt-3">
@@ -220,11 +234,36 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">35 Terjual</span>
+                            <span class="pl-3 text-muted">5 Terjual</span>
+                            <i class="fas fa-map-marker-alt" style="color: gray;">Kota Tangerang</i>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.2.000.000.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp1.865.000,-</button>
+                            <button class="btn btn-secondary btn-block" type="button">Beli</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                    <a id="i8se"><img src="asset/gambar/xiomimi8se.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <div class="card-body">
+                        <a href="#">Xiaomi 8 SE</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left"  >
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">5 Terjual</span>
+                            <i class="fas fa-map-marker-alt" style="color: gray;">Kota Tangerang</i>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 3.730.000,-</button>
                             <button class="btn btn-secondary btn-block" type="button">Beli</button>
                         </div>
                     </div>
@@ -240,7 +279,7 @@
     <section class="container mt-3">
         <h3>Produk Terlaris</h3>
         <div class="row">
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <a href="#"><img src="asset/gambar/realme50.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
@@ -253,18 +292,19 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">48 Terjual</span>
+                            <span class="pl-3 text-muted">3 Terjual</span>
+                            <i class="fas fa-map-marker-alt" style="color: gray;">Kota Tangerang</i>
                             <div class="clearfix"></div>
                         </div>
                         
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.5.300.000.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 9.280.980,-</button>
                             <button class="btn btn-secondary btn-block" type="button">Beli</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <a href="#"><img src="asset/gambar/Vivo-V19-Yatekno.jpeg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
@@ -277,17 +317,18 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">63 Terjual</span>
+                            <span class="pl-3 text-muted">5 Terjual</span>
+                            <i class="fas fa-map-marker-alt" style="color: gray;">Kota Tangerang</i>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.8.000.700.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 3.675.000,-</button>
                             <button class="btn btn-danger btn-block" type="button" disabled>Stock Habis</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <a href="#"><img src="asset/gambar/smga20.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
@@ -300,17 +341,18 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">50 Terjual</span>
+                            <span class="pl-3 text-muted">5 Terjual</span>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.4.1390.000.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 2.218.000,-</button>
                             <button class="btn btn-secondary btn-block" type="button">Beli</button>
+                            <i class="fas fa-map-marker-alt d-flex justify-content-end" style="color: gray;" >Kota Tangerang</i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <a href="#"><img src="asset/gambar/vivo50.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
@@ -323,12 +365,13 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">69 Terjual</span>
+                            <span class="pl-3 text-muted">9 Terjual</span>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.9.900.359.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 9.999.000,-</button>
                             <button class="btn btn-danger btn-block" type="button" disabled>Stock Habis</button>
+                            <i class="fas fa-map-marker-alt d-flex justify-content-end" style="color: gray;" >Kota Tangerang</i>
                         </div>
                     </div>
                 </div>
@@ -341,36 +384,37 @@
     <section class="container mt-3">
         <h3>Recomendasi</h3>
         <div class="row">
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                    <a href="#"><img src="asset/gambar/vivoy12.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <div class="card-body">
+                        <a href="#">Vivo Y 12</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">7 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 1.899.000,-</button>
+                            <button class="btn btn-secondary btn-block" type="button">Beli</button>
+                            <i class="fas fa-map-marker-alt d-flex justify-content-end" style="color: gray;" >Kota Tangerang</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <a href="#"><img src="asset/gambar/vivos1.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
                         <a href="#">Vivo S 1</a>
                         <div class="rating mt-3">
-                            <ul class="list-inline float-left">
-                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
-                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
-                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
-                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
-                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
-                            </ul>
-                            <span class="pl-3 text-muted">48 Terjual</span>
-                            <div class="clearfix"></div>
-                        </div>
-                        
-                        <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.5.300.000.00</button>
-                            <button class="btn btn-secondary btn-block" type="button">Beli</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <a href="#"><img src="asset/gambar/Vivo-V19-Yatekno.jpeg" alt="Redmi not 9" class="img-fluid "></a>
-                    <div class="card-body">
-                        <a href="#">Vivo V 19</a>
-                        <div class="rating mt-3">
                             <ul class="list-inline float-left"  >
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
@@ -378,21 +422,22 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">63 Terjual</span>
+                            <span class="pl-3 text-muted">10 Terjual</span>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.8.000.700.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 2.650.000,-</button>
                             <button class="btn btn-danger btn-block" type="button" disabled>Stock Habis</button>
+                            <i class="fas fa-map-marker-alt d-flex justify-content-end" style="color: gray;" >Kota Tangerang</i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
-                    <a href="#"><img src="asset/gambar/smga20.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <a href="#"><img src="asset/gambar/vivoy15.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
-                        <a href="#">Samsung A 20</a>
+                        <a href="#">Samsung Y 15</a>
                         <div class="rating mt-3">
                             <ul class="list-inline float-left">
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
@@ -401,21 +446,22 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">50 Terjual</span>
+                            <span class="pl-3 text-muted">6 Terjual</span>
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.4.1390.000.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp 1.299.000,-</button>
                             <button class="btn btn-secondary btn-block" type="button">Beli</button>
+                            <i class="fas fa-map-marker-alt d-flex justify-content-end" style="color: gray;" >Kota Tangerang</i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
-                    <a href="#"><img src="asset/gambar/vivo50.jpg" alt="Redmi not 9" class="img-fluid "></a>
+                    <a href="#"><img src="asset/gambar/xiomi mi.jpg" alt="Redmi not 9" class="img-fluid "></a>
                     <div class="card-body">
-                        <a href="#">Vivo X 50 Pro</a>
+                        <a href="#">Xiomi MI 10 Pro</a>
                         <div class="rating mt-3">
                             <ul class="list-inline float-left"  >
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
@@ -424,12 +470,13 @@
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                                 <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
                             </ul>
-                            <span class="pl-3 text-muted">69 Terjual</span>
+                            <span class="pl-3 text-muted">8 Terjual</span>   
                             <div class="clearfix"></div>
                         </div>
                         <div class="harga">
-                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.9.900.359.00</button>
+                            <button type="button" class="btn btn-outline-dark btn-blok border-0" disabled>Rp.9.800.000,-</button>
                             <button class="btn btn-danger btn-block" type="button" disabled>Stock Habis</button>
+                            <i class="fas fa-map-marker-alt d-flex justify-content-end" style="color: gray;" >Kota Tangerang</i>
                         </div>
                     </div>
                 </div>
@@ -441,37 +488,37 @@
     <section class="container">
         <h2>Mitra Kami</h2>
         <div class="row">   
-            <div class="col-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <figure class="figure">
                     <img src="asset/gambar/pen.png" class="figure-img img-thumbnail rounded" alt="pegadaian">
                     <figcaption class="figure-caption text-center text-uppercase">Pegadaian</figcaption>
                 </figure>
             </div>
-            <div class="col-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <figure class="figure">
                     <img src="asset/gambar/samsungstory.jpg" class="figure-img img-thumbnail rounded" alt="samsungstory">
                     <figcaption class="figure-caption text-center text-uppercase">Samsung Story</figcaption>
                 </figure>
             </div>
-            <div class="col-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <figure class="figure">
                     <img src="asset/gambar/Shopee-logo.jpg" class="figure-img img-thumbnail rounded" alt="Shopee-logo">
                     <figcaption class="figure-caption text-center text-uppercase">Shopee</figcaption>
                 </figure>
             </div>
-            <div class="col-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <figure class="figure">
                     <img src="asset/gambar/tokopedia.jpg" class="figure-img img-thumbnail rounded" alt="tokopedia">
                     <figcaption class="figure-caption text-center text-uppercase">tokopedia</figcaption>
                 </figure>
             </div>
-            <div class="col-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <figure class="figure">
                     <img src="asset/gambar/mi.jpg" class="figure-img img-thumbnail rounded" alt="xiomi">
                     <figcaption class="figure-caption text-center text-uppercase">Xiomi Story</figcaption>
                 </figure>
             </div>
-            <div class="col-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <figure class="figure">
                     <img src="asset/gambar/vivostory.jpg" class="figure-img img-thumbnail rounded" alt="vivo story">
                     <figcaption class="figure-caption text-center text-uppercase">Vivo Story</figcaption>
@@ -496,7 +543,7 @@
 
     <section class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3">
                 <h5>Perusahaan</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Tentang Kami</a></li>
@@ -504,7 +551,7 @@
                     <li><a href="#">syarat &amp; ketentuan</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-6 col-sm-6 col-md-3 col-lg-3">
                 <h5>Bantuan</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Kontak</a></li>
@@ -512,7 +559,7 @@
                     <li><a href="#">Info Kredit</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-6 col-sm-6 col-md-3 col-lg-3">
                 <h5>Akun</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Tentang Kami</a></li>
@@ -520,7 +567,7 @@
                     <li><a href="#">syarat &amp; ketentuan</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-6 col-sm-6 col-md-3 col-lg-3">
                 <h5>Sosial Media</h5>
                 <ul class="list-unstyled">
                     <li><a href="#"><i class="fab fa-facebook text-dark">facebook</i></a></li>
@@ -534,11 +581,11 @@
 
     <section class="container mt-3">
         <div class="row">
-            <div class="col-2">
+            <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                 <p>&copy; 2020 Toko Hendphone</p>
              </div>
 
-             <div class="col-8">
+             <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                  <ul class="list-inline list-unstyled">
                      <li class="list-inline-item">info@tokohendphone</li>
                      <li class="list-inline-item">+6289613726098</li>
@@ -546,7 +593,7 @@
                  </ul>
              </div>
 
-             <div class="col-2">
+             <div class="col-12 p-1 col-sm-6 col-md-6 col-lg-3">
                  <i class="fab fa-cc-visa"></i>
                  <i class="fab fa-cc-paypal"></i>
                  <i class="fab fa-cc-mastercard"></i>
@@ -557,5 +604,27 @@
     <script src="asset/js/jquery-3.5.1.full.js"></script>
     <script src="asset/js/popper.min.js"></script>
     <script src="asset/js/rbootstap.min.js"></script>
+    <script>
+        $('.link-smooth').click(function(e){
+            
+            if (this.hash !== "") {
+               // Prevent default anchor click behavior
+               event.preventDefault();
+
+               // Store hash
+               var hash = this.hash;
+
+               // Using jQuery's animate() method to add smooth page scroll
+               // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+               $('html, body').animate({
+                   scrollTop: $(hash).offset().top
+               }, 800, function () {
+
+                   // Add hash (#) to URL when done scrolling (default click behavior)
+                   window.location.hash = hash;
+               });
+           } // End if
+       });
+    </script>
 </body>
 </html>
